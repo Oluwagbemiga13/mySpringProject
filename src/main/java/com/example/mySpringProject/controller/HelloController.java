@@ -23,7 +23,7 @@ public class HelloController {
       ArrayList<String> list = new ArrayList<>();
       list.add("Dan");
       list.add(" je");
-      list.add(" frajer!");
+      list.add(" dobrej!");
     return list;
   }
   @GetMapping("/danda")
@@ -33,7 +33,7 @@ public class HelloController {
       ArrayList<String> list = new ArrayList<>();
       list.add("Dan");
       list.add(" je");
-      list.add(" frajer!");
+      list.add(" dobrej!");
       for(String element: list){
           if (text == null){
           text = element;
@@ -54,8 +54,8 @@ public class HelloController {
   @GetMapping("/daniel")
   public String danielMessage(){
       
-      String text = "\nDaniel is the most fartiful man ever!!!";
-      String text1 = "\nDaniel is the most fartiful man ever!!!";
+      String text = "\nDaniel is gonna be programer!!!";
+      String text1 = "\nDaniel is gonna be programer!!!";
       
       for (int i=0; i<200;i++){
       text1 = text + text1;
